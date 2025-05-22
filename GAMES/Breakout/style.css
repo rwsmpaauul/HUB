@@ -1,0 +1,11 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: #eee;
+    border: 1px solid #000;
+}
+
+#homelink {
+    margin: 0 auto;
+    align-content: center;
+}

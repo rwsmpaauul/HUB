@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+table {
+    background-color: black;
+    padding: 2px;
+}
+
+th,
+td {
+    text-align: center;
+    background-color: rgb(168, 166, 166);
+    padding: 5px;
+}

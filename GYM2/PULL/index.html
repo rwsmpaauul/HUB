@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PULL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body onload="load('pull')">
+
+    <h1>PULL</h1>
+
+
+    <table>
+        <tr>
+            <th id="th1"></th>
+            <th>Übung:</th>
+            <th>Gewicht</th>
+            <th>Sätze</th>
+            <th>---</th>
+        </tr>
+        <tr>
+            <td data-label="" id="aufwärmen">1.</td>
+            <td data-label="Übung:" onclick="done('aufwärmen')">Aufwärmen</td>
+            <td data-label="Gewicht:">---</td>
+            <td data-label="Sätze:">---</td>
+            <td data-label="Gerät:">Holzstab</td>
+        </tr>
+        <tr>
+            <td data-label="" id="latzug">2.</td>
+            <td data-label="Übung:" onclick="done('latzug')">Latzug</td>
+            <td data-label="Gewicht:">50 kg</td>
+            <td data-label="Sätze:">3 Stk.</td>
+            <td data-label="Gerät:">Kabelzug</td>
+        </tr>
+        <tr>
+            <td data-label="" id="kreuzeheben">3.</td>
+            <td data-label="Übung:" onclick="done('kreuzeheben')">Kreuzehebn</td>
+            <td data-label="Gewicht:">70 kg</td>
+            <td data-label="Sätze:">3 Stk.</td>
+            <td data-label="Gerät:">Langhantel</td>
+        </tr>
+        <tr>
+            <td data-label="" id="rudern">4.</td>
+            <td data-label="Übung:" onclick="done('rudern')">Rudern/APu</td>
+            <td data-label="Gewicht:">20 kg</td>
+            <td data-label="Sätze:">3 Stk.</td>
+            <td data-label="Gerät:">Maschine/Langhantel</td>
+        </tr>
+        <tr>
+            <td data-label="" id="einarmigesRudern">5.</td>
+            <td data-label="Übung:" onclick="done('einarmigesRudern')">einarmiges Rudern</td>
+            <td data-label="Gewicht:">12 kg</td>
+            <td data-label="Sätze:">3 Stk.</td>
+            <td data-label="Gerät:"> Kabelzug</td>
+        </tr>
+        <tr>
+            <td data-label="" id="reverseButterfly">6.</td>
+            <td data-label="Übung:" onclick="done('reverseButterfly')">Butterfly Reverse</td>
+            <td data-label="Gewicht:">2 kg</td>
+            <td data-label="Sätze:">3 Stk.</td>
+            <td data-label="Gerät:">Kabelzug</td>
+        </tr>
+        <tr>
+            <td data-label="" id="curls">7.</td>
+            <td data-label="Übung:" onclick="done('curls')">Bizeps/Hammer Curls</td>
+            <td data-label="Gewicht:">10 kg</td>
+            <td data-label="Sätze:">3-4 Stk.</td>
+            <td data-label="Gerät:">Hantel</td>
+        </tr>
+    </table>
+
+    <a href="../index.html">
+        <h3 class="HOME">HOME</h3>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>

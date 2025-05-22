@@ -1,0 +1,58 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+table {
+    background-color: black;
+    padding: 2px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+th,
+td {
+    text-align: left;
+    background-color: rgb(168, 166, 166);
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    word-break: break-word;
+}
+
+@media (max-width: 600px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+    }
+}

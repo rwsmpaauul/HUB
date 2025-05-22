@@ -1,0 +1,65 @@
+#r1 {
+    width: 100%;
+    overflow: auto;
+}
+
+#r2 {
+    width: 100%;
+    overflow: auto;
+
+}
+
+#r3 {
+    width: 100%;
+    overflow: auto;
+}
+
+
+.r1 {
+    width: 33%;
+    float: left;
+}
+
+.r2 {
+    width: 33%;
+    float: left;
+}
+
+.r3 {
+    width: 33%;
+    float: left;
+}
+
+#r1c2 {
+    border-left-style: solid;
+    border-right-style: solid;
+    /* border-bottom-style: solid; */
+
+    /* background-color: red; */
+}
+
+#r2c2 {
+    border-style: solid;
+}
+
+#r2c1 {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+#r2c3 {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+#r3c2 {
+    /* border-top-style: solid; */
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.canvas {
+    height: 304px;
+    width: 100%;
+    margin: auto;
+}

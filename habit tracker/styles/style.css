@@ -9,6 +9,11 @@
     border-left-style: solid;
 }
 
+.mo {
+    border-left: 1px;
+    border-left-style: solid;
+}
+
 table {
     border: 1px;
     border-style: solid;

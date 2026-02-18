@@ -3,7 +3,7 @@ import * as time from "./time.js";
 import * as createElements from "./createElements.js";
 import * as cloud from "./supaBase.js";
 
-const online = false;
+const online = true;
 
 const habits = ["Bett gemacht", "Übungsaufgaben", "Sport gemacht", "Stoff aufgearbeitet"];
 const container = document.getElementById("habit_table");

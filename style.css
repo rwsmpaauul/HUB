@@ -1,6 +1,18 @@
+a h3 {
+    display: inline-block;
+}
+
 .HOME {
     color: darkred;
     text-decoration: none;
+}
+
+.HOME:hover {
+    color: blue;
+}
+
+.link:hover {
+    color: blue;
 }
 
 a {

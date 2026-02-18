@@ -4,6 +4,23 @@
     initial-value: 0;
 }
 
+#home {
+    color: black;
+    text-decoration: none;
+}
+
+#home h1 {
+    display: inline-block;
+}
+
+#home:hover h1 {
+    color: blue;
+}
+
+h1 {
+    color: black;
+}
+
 .stat-container {
     display: inline-flex;
     flex-direction: column;

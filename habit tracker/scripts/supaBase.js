@@ -12,7 +12,10 @@ export async function saveToCloud() {
     const { error } = await supabase
         .from('habits')
         .upsert(
-            { id: 1, states: status },
+            {
+                id: 1, states: status,
+                user_id: '00000000-0000-0000-0000-000000000000'
+            },
             { onConflict: 'id' }
         )
 
@@ -24,7 +27,7 @@ export async function readFromCloud() {
         .from('habits')
         .select('states')
         .eq('id', 1)
-        .single();
+        .maybeSingle();
 
     if (data && data.states) {
         const checkboxes = document.querySelectorAll('table input[type="checkbox"]');
@@ -34,4 +37,5 @@ export async function readFromCloud() {
             }
         })
     }
+    if (error) console.error('Fehler beim Auslesen:', error);
 }

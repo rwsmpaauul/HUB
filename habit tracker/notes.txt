@@ -1,0 +1,164 @@
+    <!-- <table>
+        <tr>
+            <th rowspan="2" class="header">Habits:</th>
+            <th colspan="7" class="wa header">Woche 1:</th>
+            <th colspan="7" class="wa header">Woche 2:</th>
+            <th colspan="7" class="wa header">Woche 3:</th>
+            <th colspan="7" class="wa header">Woche 4:</th>
+        </tr>
+        <tr>
+            <th class="w1 wd wa mo">Mo:</th>
+            <th class="w1 wd di">Di:</th>
+            <th class="w1 wd mi">Mi:</th>
+            <th class="w1 wd do">Do:</th>
+            <th class="w1 wd fri">Fri:</th>
+            <th class="w1 wd sa">Sa:</th>
+            <th class="w1 wd so">So:</th>
+            <th class="w2 wd wa mo">Mo:</th>
+            <th class="w2 wd di">Di:</th>
+            <th class="w2 wd mi">Mi:</th>
+            <th class="w2 wd do">Do:</th>
+            <th class="w2 wd fri">Fri:</th>
+            <th class="w2 wd sa">Sa:</th>
+            <th class="w2 wd so">So:</th>
+            <th class="w3 wd wa mo">Mo:</th>
+            <th class="w3 wd di">Di:</th>
+            <th class="w3 wd mi">Mi:</th>
+            <th class="w3 wd do">Do:</th>
+            <th class="w3 wd fri">Fri:</th>
+            <th class="w3 wd sa">Sa:</th>
+            <th class="w3 wd so">So:</th>
+            <th class="w4 wd wa mo">Mo:</th>
+            <th class="w4 wd di">Di:</th>
+            <th class="w4 wd mi">Mi:</th>
+            <th class="w4 wd do">Do:</th>
+            <th class="w4 wd fri">Fri:</th>
+            <th class="w4 wd sa">Sa:</th>
+            <th class="w4 wd so">So:</th>
+        </tr>
+        <tr>
+            <td class="task">Bett gemacht</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+
+        </tr>
+        <tr>
+            <td class="task">Übungsaufgaben<br>gemacht</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="task">Sport<br>gemacht</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="Task">Stoff aufgearbeitet</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table> -->

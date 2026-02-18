@@ -1,0 +1,49 @@
+@property --p {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+}
+
+.stat-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.stat-container span {
+    display: block;
+    width: 100%;
+}
+
+.pie {
+    --p: 0;
+    --b: 8px;
+    --c: green;
+    --w: 80px;
+
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    margin: 10px;
+    place-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: --p 0.5s ease-in-out;
+}
+
+.pie:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%), #e4e4e4 0);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+    mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+}
